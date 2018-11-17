@@ -33,7 +33,7 @@ def get_search_results(query):
     results = soup.findAll('div', attrs={'class':'rc'})
     print(len(results))
 
-    i = 0  
+    i = 0
 
     for result in results:
         search_result = SearchResult.objects.create()
@@ -54,6 +54,13 @@ def get_search_results(query):
             search_result.save()
         except:
             pass
+        print('--------------------')
+        search_results.append(search_result)
+        print("1")
+        search_result.save()
+        print("2")
+        # except:
+        #     pass
 
     return search_results
 

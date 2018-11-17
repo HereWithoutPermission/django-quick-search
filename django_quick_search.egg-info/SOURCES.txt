@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_quick_search.egg-info/PKG-INFO
+django_quick_search.egg-info/SOURCES.txt
+django_quick_search.egg-info/dependency_links.txt
+django_quick_search.egg-info/top_level.txt

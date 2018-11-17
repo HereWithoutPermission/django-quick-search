@@ -1,0 +1,10 @@
+{% if search_results %}
+<ul>
+    {% for result in search_results %}
+    <li>
+        <a href="{{ result.url }}"><h4>{{ result.heading }}</h4></a>
+        <p>{{ result.text }}</p>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}

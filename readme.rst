@@ -2,7 +2,9 @@
 Quick Search
 =====
 
-Pending
+Django Quick Search is a plugin for Django apps to enable users to quickly highlight text and get search results without having to move to a new tab. It allows you to quickly look up terms on a Django web app, helping you get a distraction-free reading experience, while also enabling you to get extra information. Our inspiration came from Chrome on Android, which integrates Google Search with a tap-to-search functionality.
+
+Future enhancements including integrating with Google Custom Search, improving the UI/UX and showing intelligent results.
 
 Quick start
 -----------

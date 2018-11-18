@@ -54,14 +54,6 @@ def get_search_results(query):
             search_result.save()
         except:
             pass
-        print('--------------------')
-        search_results.append(search_result)
-        print("1")
-        search_result.save()
-        print("2")
-        # except:
-        #     pass
-
     return search_results
 
 def get_cached_responses(query):
